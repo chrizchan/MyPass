@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Diagnostics;
@@ -30,6 +31,7 @@ namespace MyPass.Core.Models
 
         public ICollection<Entry> Entries { get; set; }
 
+        [DisplayName("Category")]
         [Required]
         public Guid CreatedById { get; set; }
         public User CreatedBy { get; set; }
