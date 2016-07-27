@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using MyPass.Core;
 using MyPass.Core.ViewModels;
 
@@ -22,7 +18,6 @@ namespace MyPass.Controllers
             var viewModel =  new EntryFormViewModel();
 
             viewModel.Categories = _unitOfWork.CategoryRepository.GetCategories();
-
             return View(viewModel);
         }
     }
