@@ -1,0 +1,5 @@
+C:\git\MPNew\MyPass\MyPass.Core\bin\Debug\MyPass.Core.dll
+C:\git\MPNew\MyPass\MyPass.Core\bin\Debug\MyPass.Core.pdb
+C:\git\MPNew\MyPass\MyPass.Core\obj\Debug\MyPass.Core.csprojResolveAssemblyReference.cache
+C:\git\MPNew\MyPass\MyPass.Core\obj\Debug\MyPass.Core.dll
+C:\git\MPNew\MyPass\MyPass.Core\obj\Debug\MyPass.Core.pdb

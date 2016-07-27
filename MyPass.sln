@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPass.EntityFramework", "MyPass.EntityFramework\MyPass.EntityFramework.csproj", "{7C67E3D2-3EBF-4A69-934B-8438057690C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPass.Core", "MyPass.Core\MyPass.Core.csproj", "{84915DEF-56E6-4505-8F73-3826FF1401BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPass", "MyPass\MyPass.csproj", "{FFE01EEF-58BD-401A-8DFD-71BC8B133464}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C67E3D2-3EBF-4A69-934B-8438057690C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C67E3D2-3EBF-4A69-934B-8438057690C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C67E3D2-3EBF-4A69-934B-8438057690C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C67E3D2-3EBF-4A69-934B-8438057690C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84915DEF-56E6-4505-8F73-3826FF1401BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84915DEF-56E6-4505-8F73-3826FF1401BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84915DEF-56E6-4505-8F73-3826FF1401BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84915DEF-56E6-4505-8F73-3826FF1401BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE01EEF-58BD-401A-8DFD-71BC8B133464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE01EEF-58BD-401A-8DFD-71BC8B133464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE01EEF-58BD-401A-8DFD-71BC8B133464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE01EEF-58BD-401A-8DFD-71BC8B133464}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
