@@ -16,6 +16,10 @@ namespace MyPass.EntityFramework.EntityConfiguration
                 .WithMany(x=>x.Entries)
                 .HasForeignKey(x=>x.CategoryId)
                 .WillCascadeOnDelete(false);
+
+            HasRequired(x => x.CreatedBy).WithMany().HasForeignKey(x => x.CreatedById).WillCascadeOnDelete(false);
+
+            HasOptional(x => x.ModifiedBy).WithMany().HasForeignKey(x => x.ModifiedById).WillCascadeOnDelete(false);
         }
     }
 }

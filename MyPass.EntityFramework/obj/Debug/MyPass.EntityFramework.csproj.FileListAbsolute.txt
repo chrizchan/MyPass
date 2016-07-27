@@ -13,3 +13,4 @@ C:\git\MPNew\MyPass\MyPass.EntityFramework\bin\Debug\MyPass.Core.pdb
 C:\git\MPNew\MyPass\MyPass.EntityFramework\obj\Debug\MyPass.EntityFramework.Migrations.InitialTable.resources
 C:\git\MPNew\MyPass\MyPass.EntityFramework\obj\Debug\MyPass.EntityFramework.csproj.GenerateResource.Cache
 C:\git\MPNew\MyPass\MyPass.EntityFramework\obj\Debug\MyPass.EntityFramework.Migrations.PopulateCategoryTable.resources
+C:\git\MPNew\MyPass\MyPass.EntityFramework\obj\Debug\MyPass.EntityFramework.Migrations.updatemodifiedIdofEntrytable.resources

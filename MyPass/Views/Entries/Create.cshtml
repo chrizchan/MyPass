@@ -5,11 +5,15 @@
 }
 
 <h2>Add Entry</h2>
-
-<form>
+@using (Html.BeginForm("Create", "Entries"))
+{
     <div class="form-group">
         @Html.LabelFor(x => x.Name)
         @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    </div>    
+    <div class="form-group">
+        @Html.LabelFor(x => x.Desription)
+        @Html.TextAreaFor(x => x.Desription, new { @class = "form-control", rows=3 })
     </div>
     <div class="form-group">
         @Html.LabelFor(x => x.Date)
@@ -17,15 +21,16 @@
     </div>
     <div class="form-group">
         @Html.LabelFor(x => x.Time)
-        @Html.TextBoxFor(x => x.Time, new {@class = "form-control"})
+        @Html.TextBoxFor(x => x.Time, new { @class = "form-control" })
     </div>
     <div class="form-group">
         @Html.LabelFor(x => x.CategoryId)
-        @Html.DropDownListFor(x => x.CategoryId, new SelectList(Model.Categories, "Id", "Name"), "", new {@class = "form-control"})
+        @Html.DropDownListFor(x => x.CategoryId, new SelectList(Model.Categories, "Id", "Name"), "", new { @class = "form-control" })
     </div>
 
     <button type="submit" class="btn btn-primary">
         Save
     </button>
-</form>
+}
+
 

@@ -7,10 +7,11 @@ namespace MyPass.Core
     public interface IUnitOfWork : IDisposable
     {
         #region Properties
-        IExternalLoginRepository ExternalLoginRepository { get; }
-        IRoleRepository RoleRepository { get; }
-        IUserRepository UserRepository { get; }
-        ICategoryRepository CategoryRepository { get; }
+            IExternalLoginRepository ExternalLoginRepository { get; }
+            IRoleRepository RoleRepository { get; }
+            IUserRepository UserRepository { get; }
+            ICategoryRepository CategoryRepository { get; }
+            IEntryRepository EntryRepository { get; }
         #endregion
 
         #region Methods

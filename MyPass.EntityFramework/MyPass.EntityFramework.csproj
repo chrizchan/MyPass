@@ -62,10 +62,15 @@
     <Compile Include="Migrations\201607190900564_PopulateCategoryTable.Designer.cs">
       <DependentUpon>201607190900564_PopulateCategoryTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201607270545077_update modified Id of Entry table.cs" />
+    <Compile Include="Migrations\201607270545077_update modified Id of Entry table.Designer.cs">
+      <DependentUpon>201607270545077_update modified Id of Entry table.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyPassDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\CategoryRepository.cs" />
+    <Compile Include="Repositories\EntryRepository.cs" />
     <Compile Include="Repositories\ExternalLoginRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
     <Compile Include="Repositories\RoleRepository.cs" />
@@ -90,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201607190900564_PopulateCategoryTable.resx">
       <DependentUpon>201607190900564_PopulateCategoryTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201607270545077_update modified Id of Entry table.resx">
+      <DependentUpon>201607270545077_update modified Id of Entry table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

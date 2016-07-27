@@ -15,10 +15,11 @@ namespace MyPass.EntityFramework
         private readonly MyPassDbContext _context;
 
         #region Fields
-        private IUserRepository _userRepository;
-        private IExternalLoginRepository _externalLoginRepository;
-        private IRoleRepository _roleRepository;
-        private ICategoryRepository _categoryRepository;
+            private IUserRepository _userRepository;
+            private IExternalLoginRepository _externalLoginRepository;
+            private IRoleRepository _roleRepository;
+            private ICategoryRepository _categoryRepository;
+            private IEntryRepository _entryRepository;
         #endregion
 
         #region Constructors
@@ -37,6 +38,11 @@ namespace MyPass.EntityFramework
         public ICategoryRepository CategoryRepository
         {
             get { return _categoryRepository ?? (_categoryRepository = new CategoryRepository(_context)); }
+        }
+
+        public IEntryRepository EntryRepository
+        {
+            get { return _entryRepository ?? (_entryRepository = new EntryRepository(_context)); }
         }
 
         public IExternalLoginRepository ExternalLoginRepository
